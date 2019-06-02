@@ -4,25 +4,6 @@ import Header from './components/Header'
 // import logo from './logo.svg';
 import './App.css';
 
-const products = [
-  {
-    id: 1,
-    productName: 'galaxy series #astronaut',
-    shopName:'accessory culture evolution',
-    price: 1200,
-    imgUrl: '#',
-    isCommented: false,
-  },
-  {
-    id: 2,
-    productName: 'galaxy series #eve ghost',
-    shopName:'accessory culture evolution',
-    price: 1800,
-    imgUrl: '#',
-    isCommented: true,
-  }
-]
-
 function App() {
   return (
     <div className="App">
@@ -40,8 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Header/>
-      <OrderList products={products}/>
+      <Header />
+      <OrderList />
     </div>
   );
 }

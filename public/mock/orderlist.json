@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "productName": "galaxy series #astronaut",
+    "shopName":"accessory culture evolution",
+    "price": 1200,
+    "imgUrl": "https://img.alicdn.com/imgextra/i4/2200607101491/O1CN01jURITP1Msv4C53unH_!!0-item_pic.jpg_430x430q90.jpg",
+    "isCommented": false
+  },
+  {
+    "id": 2,
+    "productName": "galaxy series #eve ghost",
+    "shopName":"accessory culture evolution",
+    "price": 1800,
+    "imgUrl": "https://img.alicdn.com/imgextra/i3/2200607101491/O1CN01RKTVWB1Msv44XL2dW_!!0-item_pic.jpg_430x430q90.jpg",
+    "isCommented": true
+  }
+]

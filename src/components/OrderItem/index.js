@@ -19,7 +19,7 @@ class OrderItem extends Component {
             {
               product.isCommented
                 ?<button className='orderItem__button orderItem__button--commented' disabled>已评价</button>
-                :<button className='orderItem__button orderItem__button--notCommented'>评价</button>
+                :<button className='orderItem__button orderItem__button--notCommented' onClick={''}>评价</button>
             }
           </div>
         </div>
