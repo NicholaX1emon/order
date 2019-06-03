@@ -1,16 +1,16 @@
 .orderItem {
   display: flex;
+  padding: 11px 10px 11px 15px;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 15px;
 }
 .orderItem__imgContainer {
   padding-right: 10px;
   display: inline-block;
 }
 .orderItem__img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   box-shadow: 2px 2px 8px 2px #999;
 }
 .orderItem__content {
@@ -18,12 +18,11 @@
   display: inline-block;
 }
 .orderItem__product {
-  text-align: left;
-  max-width: 235px;
-  font-size: 16px;
-  font-weight: 700;
+  max-width: 237px;
+  font-size: 15px;
+  font-weight: 600;
   color: #111;
-  padding-top: 5px;
+  padding-top: 6px;
   padding-right: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -36,15 +35,16 @@
   white-space: nowrap;
   font-size: 12px;
   color: #777;
-  padding-top: 8px;
-  padding-bottom: 12px;
+  padding-top: 9px;
+  padding-bottom: 13px;
+  margin-left: 10px;
 }
 .orderItem__detail {
-  height: 20px;
   display: flex;
   justify-content: space-between;
-  line-height: 20px;
-  padding-right: 5px;
+  height: 22px;
+  line-height: 22px;
+  padding-right: 4px;
 }
 .orderItem__price {
   font-size: 13px;
@@ -58,9 +58,10 @@
 }
 .orderItem__button {
   width: 80px;
-  height: 25px;
+  height: 22px;
   text-align: center;
   color: #fff;
+  border: 0;
   font-size: 14px;
   border-radius: 7px;
 }
@@ -72,7 +73,7 @@
   background-color: red;
 }
 .orderItem__commentContainer {
-  width: 95%;
+  width: 97%;
   margin: 0 auto;
 }
 .orderItem__comment {

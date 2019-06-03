@@ -26,11 +26,27 @@ class OrderList extends Component {
       products
     } = this.state
     
+    const handleSubmit = (id, comment, rating) => {
+      const newProducts = products.map(item => {
+        return item.id === id 
+          ? {
+            ...item,
+            comment,
+            rating,
+            isCommented: true
+          }
+          : item
+      })
+      this.setState({
+        products: newProducts
+      })
+    }
+
     return (
       <div>
         {
           products.map(product => {
-            return <OrderItem product={product} key={product.id}/>
+            return <OrderItem product={product} onSubmit={handleSubmit} key={product.id}/>
           })
         }
       </div>
